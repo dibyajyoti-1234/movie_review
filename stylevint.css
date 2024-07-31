@@ -1,0 +1,276 @@
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #2d2a26;
+    color: #fff4e6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4b382a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #8a5c3c;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #fff4e6;
+    text-shadow: 2px 2px #000;
+}
+
+.nav-bar {
+    margin-top: 10px;
+}
+
+.nav-bar a {
+    margin: 0 15px;
+    color: #fff4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin-top: 15px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #8a5c3c;
+    border-radius: 5px;
+    background-color: #3e352a;
+    color: #fff4e6;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8a5c3c;
+    color: #fff4e6;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-item {
+    background-color: #3e352a;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid #8a5c3c;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.video-item img {
+    width: 100%;
+    border-bottom: 2px solid #8a5c3c;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.video-item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.rent-now {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8a5c3c;
+    color: #fff4e6;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4b382a;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #8a5c3c;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #fff4e6;
+}
+
+.movie-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.movie-details img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #8a5c3c;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.details {
+    max-width: 500px;
+}
+
+.details h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.cart {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #8a5c3c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #8a5c3c;
+    border-radius: 10px;
+}
+
+.cart-details {
+    flex-grow: 1;
+}
+
+.cart-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.cart-details p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.remove {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8a5c3c;
+    color: #fff4e6;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-summary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-summary h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.checkout {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8a5c3c;
+    color: #fff4e6;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3e352a;
+    border: 2px solid #8a5c3c;
+    border-radius: 10px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #8a5c3c;
+    border-radius: 5px;
+    background-color: #2d2a26;
+    color: #fff4e6;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8a5c3c;
+    color: #fff4e6;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form p {
+    text-align: center;
+}
+
+.login-form a {
+    color: #8a5c3c;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
